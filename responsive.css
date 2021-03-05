@@ -143,18 +143,7 @@
     
         margin-left: -40px;
     }
-    .menu ul {
-        
-        margin-left: -33px;
-    }
     .fourthcontent {
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (min-width:413px) and (max-width:479px){
-    .menu ul {
-        
         margin-left: 0px;
     }
 }
