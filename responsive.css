@@ -1,0 +1,161 @@
+/* tablet mode  */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .menu ul{
+        padding-right: 0px;
+        text-align: center;
+    }
+    .headersection2{
+        margin-left: 0px;
+    }
+    .secondcontent .seconddetails, h2 {
+        margin-left: 0px;
+    }
+    .list {
+        display: flex;
+        margin-left: 0px;
+    }
+    .secondimg{
+        text-align: center;
+    }
+    .fourthcontent {
+        margin-left: 0px;
+    }
+    .footerlogo{
+        text-align: center;
+    }
+    .footermenu ul {
+        text-align: left;
+    }
+    .footermenu ul li{
+        padding: 0px 0px;
+    }
+}
+
+/* mobile device */
+@media only screen and (min-width:480px) and (max-width:767px){
+    .headersection2{
+        margin-left: 0px;
+    }
+    .headercontent p{
+        padding-right: 0px;
+    }
+    .menu ul{
+        padding-right: 0px;
+        text-align: center;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding: 0 5px;
+    }
+    .secondcontent .seconddetails, h2 {
+        margin-left: 0px;
+    }
+    .list {
+        display: flex;
+        margin-left: 0px;
+    }
+    .aboutimg {
+        height: 400px;
+    }
+    .secondimg{
+        text-align: center;
+    }
+    .fourthcontent {
+        margin-left: 15px;
+    }
+    .aboutvideoimg {
+        width: 390px;
+        height: 260px;
+    }
+    .playbutton {
+        left: 165px;
+        top: 85px;
+    }
+    .footerlogo{
+        text-align: center;
+    }
+    .footermenu ul {
+        text-align: left;
+        padding-left: 0px;
+    }
+    .footermenu ul {
+        display: none;
+        
+    }
+   
+    .fourthcontent {
+        margin-left: 0px;
+    }
+}
+
+/* for small device */
+@media only screen and (min-width:200px) and (max-width:479px){
+    .headersection2{
+        margin-left: 0px;
+    }
+    .menu ul{
+        padding-right: 0px;
+        text-align: left;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding: 0 0px;
+    }
+    .secondcontent .seconddetails, h2 {
+        margin-left: 0px;
+    }
+    .list {
+        display: flex;
+        margin-left: 0px;
+    }
+    .aboutimg {
+        height: 290px;
+        text-align: left;
+    }
+    .secondimg{
+        text-align: center;
+    }
+    .fourthcontent {
+        margin-left: 15px;
+    }
+    .aboutvideoimg {
+        width: 250px;
+        height: 170px;
+    }
+    .playbutton {
+        left: 90px;
+        top: 45px;
+    }
+    .sixthimg{
+        text-align: center;
+    }
+    .footerlogo{
+        text-align: center;
+    }
+    .footermenu ul {
+        display: none;
+        
+    }
+    .footerlist{
+        padding-left: 0px;
+    }
+    .footerlist ul {
+    
+        margin-left: -40px;
+    }
+    .menu ul {
+        
+        margin-left: -33px;
+    }
+    .fourthcontent {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width:413px) and (max-width:479px){
+    .menu ul {
+        
+        margin-left: 0px;
+    }
+}
+

@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.secondimg{
+    text-align: left;
+}
+.firstsection{
+    background:linear-gradient( rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/home-background.jpg);
+    padding-bottom: 180px;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headersection{
+    border-bottom: 1px solid rgba(235, 235, 235, 0.25);
+}
+.logo{
+    text-align: center;
+
+}
+.mainlogo{
+    height: 30px;
+}
+.menu ul{
+    text-align:right;
+    padding-right: 180px;
+
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .1s;
+}
+.menu ul li a:hover{
+
+    border-bottom: 3px solid #FF6700;
+}
+.headersection2{
+    margin-top: 140px;
+    margin-left: 170px;
+}
+.headercontent h1{
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+}
+.headercontent p{
+    font-size: 22px;
+    color: white;
+    padding-right: 80px;
+    margin-bottom: 25px;
+}
+.headercontent a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF6700;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+.headercontent a:hover{
+    background: white;
+    color: #FF6700;
+    padding: 11px 30px;
+    border: 2px solid #FF6700;
+}
+/* secondsection */
+
+.secondsection{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.aboutimg{
+    height: 480px;
+}
+.secondcontent .seconddetails, h2{
+    margin-left: 180px;
+}
+.secondcontent h2{
+    font-weight: 600;
+    color: #374050;
+}
+.seconddetails{
+    margin-bottom: 40px;
+    font-size: 21px;
+    color: #798696;
+}
+.list{
+    display: flex;
+    margin-left: 180px; 
+}
+.fas{
+    font-size: 25px ;
+    padding: 25px 26px;
+    border: 1px solid #EBEBEB;
+    border-radius: 50%;
+    color: #FF6700;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+.listcontent{
+    margin-left: 30px;
+}
+.listcontent h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #374050;
+}
+.listcontent p{
+    font-size: 15px;
+    color: #798696;
+}
+/* third section */
+
+.thirdsection{
+    padding-top: 50px;
+    padding-bottom:80px;
+}
+.thirddetails{
+    margin-bottom: 50px;
+
+}
+
+.thirddetails h2{
+    margin-left: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.thirddetails p{
+    font-size: 21px;
+    color: #798696;
+    text-align: center;
+}
+
+.courseimg{
+    height: 180px;
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+.firstcourse{
+
+}
+
+.courses h6{
+    margin-top: 20px;
+    width: 270px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #374050;
+}
+.coursetitle{
+    height: 260px;
+}
+.coursedetails h5,h4{
+    display: inline;
+    font-weight: normal;
+    font-size: 15px;
+    
+}
+.coursedetails h5{
+    color: #798696;
+}
+.coursedetails{
+    padding-top: 10px;
+    border-top: 1px solid #EBEBEB;
+    width: 270px;
+}
+.coursedetails h4{
+    float: right;
+}
+
+.thirdbtn{
+    margin-top: 50px;
+} 
+.coursebtn{
+    text-decoration: none;
+    color: white;
+    background-color: #FF6700;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+.coursebtn:hover{
+    background: white;
+    color: #FF6700;
+    padding: 11px 30px;
+    border: 2px solid #FF6700;
+}
+
+/* fourthsection */
+
+.fourthsection{
+    background:linear-gradient( rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/cta1-background.jpg);
+    padding-bottom: 100px;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.fourthcontent{
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.fourthcontent h1{
+    font-size: 30px;
+    color: white;
+    max-width: 500px;
+    font-weight: bold;
+}
+.fourthcontent p{
+    font-size: 22px;
+    color: white;
+}
+.fourthcontent a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF6700;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.fourthcontent a:hover{
+    background: white;
+    color: #FF6700;
+    padding: 11px 30px;
+    border: 2px solid #FF6700;
+}
+
+/* fifth section */
+.fifthsection{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.fifthcontent{
+    margin-bottom: 40px;
+    
+}
+.fifthcontent h2{
+    margin-left: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.fifthcontent p{
+    font-size: 21px;
+    color: #798696;
+    text-align: center;
+}
+.fifthlist{
+    display: flex;
+    padding-bottom: 100px;
+    
+}
+.fifthcontentlist{
+    border-bottom: 1px solid #EBEBEB;
+}
+/* sixth section */
+
+.sixthsection{
+    margin-bottom: -70px;
+}
+.sixthcontent{
+    text-align: justify;
+}
+.sixthcontent h6{
+    font-size: 24px;
+    color:#374050;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+.sixthcontent h3{
+    font-size: 22px;
+    color: #798696;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.sixthcontent p{
+    font-size: 15px;
+    color: #798696;
+}
+.aboutimg{
+    text-align: center;
+    position: relative;
+}
+.aboutvideoimg{
+    width: 457.5px;
+    height: 305px;
+    border-radius: 5px;
+    
+}
+.playbutton{
+    left: 245px;
+    top: 105px;
+    position: absolute;
+    background: white;
+    border: none;
+    color:#374050 ;
+    padding: 27px 32px;
+}
+.playbutton:hover{
+    cursor: pointer;
+    color: #FF6700;
+}
+
+/* seneth section */
+.seventhsection{
+    padding-bottom: 65px;
+    background:linear-gradient( rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/cta2-background.jpg) fixed center;
+    margin-bottom: 10px;
+}
+
+.contactbtn{
+    text-decoration: none;
+    color: white;
+    background-color: #FF6700;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+.contactbtn:hover{
+    background: white;
+    color: #FF6700;
+    padding: 11px 30px;
+    border: 2px solid #FF6700;
+    
+}
+.seventhcontent{
+    margin-top: 30px;
+}
+.seventhcontent h1{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 15px;
+
+}
+.seventhcontent p{
+    font-size: 21px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+/* footer section */
+.footersection{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.footermenu ul{
+    text-align: right;
+
+}
+.footermenu ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.footermenu ul li a{
+    color: #374050;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .1s;
+}
+.footermenu ul li a:hover{
+    color: #FF6700;
+    border-bottom: 3px solid #FF6700;
+}
+.footer1{
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom:40px ;
+}
+.footerlist{
+    margin-top: 20px;
+}
+.footerlist ul{
+    text-align: center;
+}
+.footerlist ul li{
+    display: inline-block;
+    padding: 0px 0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.footerlist ul li a{
+    display: block;
+    color: white;
+   
+
+}
+.copyrightcontent p{
+    margin-top: 30px;
+    color: #798696;
+}
+.copyrightcontent p a{
+    color: black;
+    font-weight: bold;
+}
+.copyrightcontent p a:hover{
+    color: #FF6700;
+    font-weight: bold;
+}
+.fb{
+background: #3b5998;
+}
+.tweet{
+    background-color: #55acee;
+}
+.google{
+    background-color: #dd4b39;
+}
+.insta{
+    background-color: #e95950;
+}
+.yt{
+    background-color: #ff0000;
+}
+.linked{
+    background-color: #007bb5;
+}
